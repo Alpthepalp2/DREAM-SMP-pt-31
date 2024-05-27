@@ -1,0 +1,471 @@
+[18:50:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:50:20] [Server thread/INFO]: Loading properties
+[18:50:20] [Server thread/INFO]: Default game type: SURVIVAL
+[18:50:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:50:21] [Server thread/INFO]: Debug logging is disabled
+[18:50:21] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:50:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:50:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:50:21] [Server thread/INFO]: Data value allowed items: 
+[18:50:21] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:50:21] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:50:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:50:21] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:50:21] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:50:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:50:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:50:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:50:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:50:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:50:21] [Server thread/INFO]: Generating keypair
+[18:50:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:50:21] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:50:21] [Server thread/INFO]: Using default channel type
+[18:50:21] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:50:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[18:50:21] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:50:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:50:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:50:21] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:50:21] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:50:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:50:21] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:50:21] [Server thread/INFO]: Preparing level "world"
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:50:21] [Server thread/INFO]: Mob Spawn Range: 4
+[18:50:21] [Server thread/INFO]: Anti X-Ray: true
+[18:50:21] [Server thread/INFO]: 	Engine Mode: 2
+[18:50:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:50:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:50:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:50:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:50:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:50:21] [Server thread/INFO]: Random Lighting Updates: false
+[18:50:21] [Server thread/INFO]: Structure Info Saving: true
+[18:50:21] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:50:21] [Server thread/INFO]: Max Entity Collisions: 8
+[18:50:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:50:21] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:50:21] [Server thread/INFO]: View Distance: 4
+[18:50:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:50:21] [Server thread/INFO]: Clear tick list: false
+[18:50:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:50:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:50:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:50:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:50:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:50:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:50:21] [Server thread/INFO]: Water over lava flow speed: 5
+[18:50:21] [Server thread/INFO]: Fix TNT cannons: false
+[18:50:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:50:21] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:50:21] [Server thread/INFO]: World async lighting: false
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:50:21] [Server thread/INFO]: Mob Spawn Range: 4
+[18:50:21] [Server thread/INFO]: Anti X-Ray: true
+[18:50:21] [Server thread/INFO]: 	Engine Mode: 2
+[18:50:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:50:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:50:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:50:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:50:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:50:21] [Server thread/INFO]: Random Lighting Updates: false
+[18:50:21] [Server thread/INFO]: Structure Info Saving: true
+[18:50:21] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:50:21] [Server thread/INFO]: Max Entity Collisions: 8
+[18:50:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:50:21] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:50:21] [Server thread/INFO]: View Distance: 4
+[18:50:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:50:21] [Server thread/INFO]: Clear tick list: false
+[18:50:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:50:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:50:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:50:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:50:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:50:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:50:21] [Server thread/INFO]: Water over lava flow speed: 5
+[18:50:21] [Server thread/INFO]: Fix TNT cannons: false
+[18:50:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:50:21] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:50:21] [Server thread/INFO]: World async lighting: false
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:50:21] [Server thread/INFO]: Mob Spawn Range: 4
+[18:50:21] [Server thread/INFO]: Anti X-Ray: true
+[18:50:21] [Server thread/INFO]: 	Engine Mode: 2
+[18:50:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:50:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:50:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:50:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:50:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:50:21] [Server thread/INFO]: Random Lighting Updates: false
+[18:50:21] [Server thread/INFO]: Structure Info Saving: true
+[18:50:21] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:50:21] [Server thread/INFO]: Max Entity Collisions: 8
+[18:50:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:50:21] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:50:21] [Server thread/INFO]: View Distance: 4
+[18:50:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:50:21] [Server thread/INFO]: Clear tick list: false
+[18:50:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:50:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:50:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:50:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:50:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:50:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:50:21] [Server thread/INFO]: Water over lava flow speed: 5
+[18:50:21] [Server thread/INFO]: Fix TNT cannons: false
+[18:50:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:50:21] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:50:21] [Server thread/INFO]: World async lighting: false
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:50:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:50:21] [Server thread/INFO]: Preparing start region for level 0 (Seed: -19001025596641263)
+[18:50:22] [Server thread/INFO]: Preparing spawn area: 97%
+[18:50:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: -9201627786381528927)
+[18:50:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: -9201627786381528927)
+[18:50:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[18:50:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:50:23] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[18:50:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:50:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:50:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:50:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:50:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:50:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:50:23] [Server thread/INFO]: Done (2.356s)! For help, type "help" or "?"
+[18:50:23] [Server thread/INFO]: Timings Reset
+[18:51:23] [Thread-6/INFO]: UUID of player Parrot is 5e682df3-cf66-3ab1-baf4-9346a3a9d6d6
+[18:51:23] [Server thread/INFO]: Parrot[/[0:0:0:0:0:0:0:1]:58894] logged in with entity id 353 at ([world]441.0, 64.0, -890.0)
+[18:51:44] [Thread-7/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[18:51:44] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:56412] logged in with entity id 424 at ([world]441.0, 64.0, -890.0)
+[18:52:14] [Async Chat Thread - #0/INFO]: <Parrot> I need a book[m
+
+[18:53:10] [Async Chat Thread - #0/INFO]: <Noob> we need leather i think[m
+
+[18:53:14] [Async Chat Thread - #0/INFO]: <Parrot> k[m
+
+[18:53:24] [Async Chat Thread - #0/INFO]: <Parrot> I got lead[m
+
+[18:53:28] [Async Chat Thread - #0/INFO]: <Parrot> we need find cow[m
+
+[18:53:42] [Async Chat Thread - #0/INFO]: <Parrot> also bedroom[m
+
+[18:53:52] [Async Chat Thread - #0/INFO]: <Noob> do we have wheat?[m
+
+[18:53:57] [Async Chat Thread - #0/INFO]: <Parrot> yea[m
+
+[18:54:07] [Async Chat Thread - #0/INFO]: <Noob> lets try to bring back a few cows[m
+
+[18:54:13] [Async Chat Thread - #0/INFO]: <Parrot> I got lead[m
+
+[18:54:18] [Async Chat Thread - #0/INFO]: <Noob> cool[m
+
+[18:55:21] [Async Chat Thread - #1/INFO]: <Noob> take the sheep[m
+
+[18:55:32] [Async Chat Thread - #1/INFO]: <Parrot> we need cow farm[m
+
+[18:55:33] [Server thread/INFO]: Parrot issued server command: /
+[18:55:38] [Async Chat Thread - #1/INFO]: <Parrot> not sheep[m
+
+[18:55:41] [Async Chat Thread - #1/INFO]: <Noob> we'll come and get it later[m
+
+[18:56:23] [Async Chat Thread - #1/INFO]: <Noob> ender pearl?[m
+
+[18:56:25] [Async Chat Thread - #1/INFO]: <Parrot> ya[m
+
+[18:56:43] [Async Chat Thread - #1/INFO]: <Noob> no cow[m
+
+[18:57:10] [Async Chat Thread - #1/INFO]: <Parrot> we need boat[m
+
+[18:57:32] [Async Chat Thread - #1/INFO]: <Noob> ill make one[m
+
+[18:57:39] [Async Chat Thread - #1/INFO]: <Parrot> nvm plains[m
+
+[18:59:04] [Async Chat Thread - #2/INFO]: <Noob> where are you[m
+
+[18:59:12] [Async Chat Thread - #2/INFO]: <Parrot> WERE ARE THE DAM COWS BRUH[m
+
+[18:59:20] [Server thread/INFO]: Parrot issued server command: /gamemode creative
+[18:59:20] [Server thread/INFO]: [Parrot: Set own game mode to Creative Mode]
+[18:59:35] [Server thread/INFO]: Parrot issued server command: /gamemode survival
+[18:59:35] [Server thread/INFO]: [Parrot: Set own game mode to Survival Mode]
+[18:59:54] [Async Chat Thread - #2/INFO]: <Parrot> I got 4 cows[m
+
+[18:59:58] [Async Chat Thread - #2/INFO]: <Parrot> go back to base[m
+
+[19:00:09] [Async Chat Thread - #2/INFO]: <Noob> what are base coords[m
+
+[19:01:03] [Async Chat Thread - #2/INFO]: <Parrot> go to savan[m
+
+[19:01:10] [Async Chat Thread - #2/INFO]: <Parrot> and use your memory[m
+
+[19:01:22] [Async Chat Thread - #2/INFO]: <Noob> are you at base[m
+
+[19:01:26] [Async Chat Thread - #2/INFO]: <Parrot> yes[m
+
+[19:03:01] [Async Chat Thread - #3/INFO]: <Noob> im at dirt pillar[m
+
+[19:03:45] [Thread-8/INFO]: UUID of player CaveDweller is 1f613481-48ed-3944-96d0-d94028414929
+[19:03:45] [Server thread/INFO]: CaveDweller[/[0:0:0:0:0:0:0:1]:49464] logged in with entity id 2655 at ([world]441.0, 64.0, -890.0)
+[19:04:07] [Async Chat Thread - #4/INFO]: <Noob> ah[m
+
+[19:04:09] [Async Chat Thread - #4/INFO]: <CaveDweller> hola mi compadres[m
+
+[19:04:10] [Async Chat Thread - #4/INFO]: <Noob> cows[m
+
+[19:04:16] [Async Chat Thread - #4/INFO]: <Noob> i have foound 4 cows[m
+
+[19:04:39] [Async Chat Thread - #4/INFO]: <Noob> what are base coords?[m
+
+[19:04:41] [Async Chat Thread - #4/INFO]: <CaveDweller> we could make an auto sugarcane farm[m
+
+[19:04:46] [Async Chat Thread - #4/INFO]: <CaveDweller> 514,26,-984[m
+
+[19:05:22] [Async Chat Thread - #4/INFO]: <CaveDweller> setting the language to pirate speak is so much fun[m
+
+[19:07:25] [Async Chat Thread - #5/INFO]: <Noob> shall i make a giant stone pillar at our base?[m
+
+[19:08:09] [Async Chat Thread - #5/INFO]: <Parrot> make a enchant room[m
+
+[19:08:15] [Async Chat Thread - #5/INFO]: <CaveDweller> alr[m
+
+[19:08:19] [Async Chat Thread - #5/INFO]: <Noob> i just made a chick[m
+
+[19:08:23] [Async Chat Thread - #5/INFO]: <CaveDweller> that's gonna be next to the bedroom[m
+
+[19:08:41] [Async Chat Thread - #5/INFO]: <CaveDweller> do we have the materials for an enchant table?[m
+
+[19:08:53] [Async Chat Thread - #5/INFO]: <Parrot> yea I have it in inv[m
+
+[19:08:53] [Async Chat Thread - #5/INFO]: <Noob> we already made one[m
+
+[19:08:58] [Async Chat Thread - #5/INFO]: <CaveDweller> oh[m
+
+[19:09:01] [Async Chat Thread - #5/INFO]: <CaveDweller> ok[m
+
+[19:09:19] [Async Chat Thread - #5/INFO]: <Noob> put the enchant table next to the bedroom[m
+
+[19:09:26] [Async Chat Thread - #5/INFO]: <CaveDweller> await[m
+
+[19:09:28] [Async Chat Thread - #5/INFO]: <CaveDweller> wait[m
+
+[19:09:30] [Async Chat Thread - #5/INFO]: <Noob> just make a new room[m
+
+[19:09:35] [Async Chat Thread - #5/INFO]: <Parrot> I want enchant to be moody[m
+
+[19:09:41] [Async Chat Thread - #5/INFO]: <Parrot> so like dark[m
+
+[19:09:44] [Async Chat Thread - #5/INFO]: <Parrot> wood[m
+
+[19:09:46] [Async Chat Thread - #5/INFO]: <Parrot> lava[m
+
+[19:10:13] [Async Chat Thread - #5/INFO]: <Noob> we'll add steps later[m
+
+[19:10:28] [Async Chat Thread - #5/INFO]: <CaveDweller> why down[m
+
+[19:10:36] [Async Chat Thread - #5/INFO]: <Noob> like a creepy basement[m
+
+[19:10:36] [Async Chat Thread - #5/INFO]: <Parrot> astetics[m
+
+[19:10:41] [Async Chat Thread - #5/INFO]: <CaveDweller> i mean ok[m
+
+[19:10:50] [Async Chat Thread - #5/INFO]: <Parrot> help me mind[m
+
+[19:10:53] [Async Chat Thread - #5/INFO]: <Parrot> mine[m
+
+[19:11:16] [Async Chat Thread - #5/INFO]: <CaveDweller> yo where the sticks at[m
+
+[19:13:33] [Async Chat Thread - #6/INFO]: <Noob> looking good eh?[m
+
+[19:13:39] [Async Chat Thread - #6/INFO]: <Parrot> yea[m
+
+[19:14:12] [Async Chat Thread - #6/INFO]: <Noob> i gtg[m
+
+[19:14:25] [Server thread/INFO]: Noob lost connection: Disconnected
+[19:14:25] [Server thread/INFO]: Noob left the game.
+[19:15:02] [Async Chat Thread - #6/INFO]: <CaveDweller> chat what is this[m
+
+[19:15:53] [Async Chat Thread - #6/INFO]: <CaveDweller> we don't need that much sapce[m
+
+[19:16:54] [Async Chat Thread - #7/INFO]: <CaveDweller> what[m
+
+[19:17:32] [Async Chat Thread - #7/INFO]: <CaveDweller> beta[m
+
+[19:17:36] [Async Chat Thread - #7/INFO]: <CaveDweller> what are you doing beta[m
+
+[19:19:17] [Async Chat Thread - #8/INFO]: <CaveDweller> CREEPER[m
+
+[19:19:21] [Async Chat Thread - #8/INFO]: <CaveDweller> nvm[m
+
+[19:19:58] [Server thread/INFO]: CaveDweller has just earned the achievement [Repopulation]
+[19:20:13] [Server thread/INFO]: Parrot issued server command: /gamemode creative
+[19:20:13] [Server thread/INFO]: [Parrot: Set own game mode to Creative Mode]
+[19:20:39] [Server thread/INFO]: Parrot issued server command: /gamemode survival
+[19:20:39] [Server thread/INFO]: [Parrot: Set own game mode to Survival Mode]
+[19:20:47] [Async Chat Thread - #9/INFO]: <CaveDweller> im gonna go find some more animals to kill[m
+
+[19:21:31] [Server thread/INFO]: Parrot issued server command: /gamemode creative
+[19:21:31] [Server thread/INFO]: [Parrot: Set own game mode to Creative Mode]
+[19:33:32] [Server thread/INFO]: Parrot issued server command: /gamemode survival
+[19:33:32] [Server thread/INFO]: [Parrot: Set own game mode to Survival Mode]
+[19:33:34] [Server thread/INFO]: Parrot lost connection: Disconnected
+[19:33:34] [Server thread/INFO]: Parrot left the game.
+[19:34:38] [Thread-9/INFO]: UUID of player Parrot is 5e682df3-cf66-3ab1-baf4-9346a3a9d6d6
+[19:34:38] [Server thread/INFO]: Parrot[/[0:0:0:0:0:0:0:1]:38846] logged in with entity id 6038 at ([world]441.0, 64.0, -890.0)
+[19:37:30] [Async Chat Thread - #10/INFO]: <CaveDweller> what happened here[m
+
+[19:41:25] [Async Chat Thread - #11/INFO]: <CaveDweller> this farm is buggin[m
+
+[19:43:13] [Server thread/INFO]: Parrot issued server command: /gamemode creative
+[19:43:13] [Server thread/INFO]: [Parrot: Set own game mode to Creative Mode]
+[19:43:16] [Async Chat Thread - #12/INFO]: <Parrot> wdym?[m
+
+[19:43:37] [Async Chat Thread - #12/INFO]: <CaveDweller> sugarcane and a specific seed[m
+
+[19:43:40] [Async Chat Thread - #12/INFO]: <CaveDweller> keep popping out[m
+
+[19:43:55] [Async Chat Thread - #12/INFO]: <CaveDweller> also cave system at 510,-952[m
+
+[19:44:02] [Server thread/INFO]: Parrot issued server command: /gamemode survival
+[19:44:02] [Server thread/INFO]: [Parrot: Set own game mode to Survival Mode]
+[19:44:32] [Async Chat Thread - #12/INFO]: <Parrot> DONT[m
+
+[19:44:37] [Async Chat Thread - #12/INFO]: <Parrot> NONONONONOONONONON[m
+
+[19:44:41] [Async Chat Thread - #12/INFO]: <CaveDweller> what's in there[m
+
+[19:44:43] [Async Chat Thread - #12/INFO]: <Parrot> YOU WILL REGET[m
+
+[19:44:45] [Async Chat Thread - #12/INFO]: <CaveDweller> rigged w tnt?[m
+
+[19:44:50] [Async Chat Thread - #12/INFO]: <Parrot> nope[m
+
+[19:44:54] [Async Chat Thread - #12/INFO]: <Parrot> but dont[m
+
+[19:44:57] [Async Chat Thread - #12/INFO]: <CaveDweller> then what[m
+
+[19:45:02] [Async Chat Thread - #12/INFO]: <CaveDweller> it's trapped ik[m
+
+[19:45:07] [Async Chat Thread - #12/INFO]: <CaveDweller> ohh[m
+
+[19:45:10] [Async Chat Thread - #12/INFO]: <CaveDweller> lava pit?[m
+
+[19:45:17] [Async Chat Thread - #12/INFO]: <Parrot> dont worry abt it[m
+
+[19:45:24] [Async Chat Thread - #12/INFO]: <CaveDweller> yo[m
+
+[19:45:29] [Async Chat Thread - #12/INFO]: <CaveDweller> we need to fix light levels[m
+
+[19:45:42] [Async Chat Thread - #12/INFO]: <CaveDweller> skelly keeps spawning[m
+
+[19:47:47] [Async Chat Thread - #13/INFO]: <CaveDweller> alr im going to open the chest[m
+
+[19:48:17] [Async Chat Thread - #13/INFO]: <CaveDweller> um[m
+
+[19:48:48] [Server thread/INFO]: CaveDweller blew up
+[19:49:01] [Async Chat Thread - #13/INFO]: <Parrot> are you...[m
+
+[19:49:38] [Server thread/INFO]: CaveDweller fell from a high place
+[19:49:46] [Async Chat Thread - #13/INFO]: <Parrot> I said you would regret...[m
+
+[19:49:55] [Async Chat Thread - #13/INFO]: <CaveDweller> ay wsg my enderman[m
+
+[19:50:03] [Server thread/INFO]: CaveDweller was slain by Enderman
+[19:50:38] [Server thread/INFO]: Parrot lost connection: Disconnected
+[19:50:38] [Server thread/INFO]: Parrot left the game.
+[19:57:11] [Thread-10/INFO]: UUID of player Parrot is 5e682df3-cf66-3ab1-baf4-9346a3a9d6d6
+[19:57:11] [Server thread/INFO]: Parrot[/[0:0:0:0:0:0:0:1]:46154] logged in with entity id 8505 at ([world]441.0, 64.0, -890.0)
+[19:57:38] [Server thread/INFO]: Parrot lost connection: Disconnected
+[19:57:38] [Server thread/INFO]: Parrot left the game.
+[20:17:53] [Thread-11/INFO]: UUID of player Parrot is 5e682df3-cf66-3ab1-baf4-9346a3a9d6d6
+[20:17:53] [Server thread/INFO]: Parrot[/[0:0:0:0:0:0:0:1]:54634] logged in with entity id 9718 at ([world]441.0, 64.0, -890.0)
+[20:18:10] [Async Chat Thread - #15/INFO]: <Parrot> sec[m
+
+[20:18:15] [Async Chat Thread - #15/INFO]: <Parrot> need to show you somthing[m
+
+[20:18:26] [Async Chat Thread - #15/INFO]: <CaveDweller> tnt trap no. 2[m
+
+[20:18:30] [Async Chat Thread - #15/INFO]: <Parrot> nope[m
+
+[20:18:48] [Server thread/INFO]: Parrot issued server command: /gamemode surivval
+[20:18:48] [Server thread/INFO]: [Parrot: 'surivval' is not a valid number]
+[20:18:51] [Server thread/INFO]: Parrot issued server command: /gamemode 1
+[20:18:51] [Server thread/INFO]: [Parrot: Set own game mode to Creative Mode]
+[20:19:03] [Server thread/INFO]: Parrot issued server command: /gamemode survival
+[20:19:03] [Server thread/INFO]: [Parrot: Set own game mode to Survival Mode]
+[20:19:05] [Async Chat Thread - #15/INFO]: <CaveDweller> ooh a slime[m
+
+[20:19:16] [Server thread/INFO]: Parrot lost connection: Disconnected
+[20:19:16] [Server thread/INFO]: Parrot left the game.
+[20:19:24] [Async Chat Thread - #15/INFO]: <CaveDweller> lol ok[m
+
+[20:21:09] [Server thread/INFO]: CaveDweller lost connection: Disconnected
+[20:21:09] [Server thread/INFO]: CaveDweller left the game.
+[20:21:13] [Thread-12/INFO]: UUID of player CaveDweller is 1f613481-48ed-3944-96d0-d94028414929
+[20:21:13] [Server thread/INFO]: CaveDweller[/[0:0:0:0:0:0:0:1]:45384] logged in with entity id 10202 at ([world]441.0, 64.0, -890.0)
+[20:24:08] [Server thread/INFO]: CaveDweller lost connection: Disconnected
+[20:24:08] [Server thread/INFO]: CaveDweller left the game.
